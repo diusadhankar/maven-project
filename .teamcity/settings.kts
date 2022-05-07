@@ -35,7 +35,7 @@ project {
 object Build : BuildType({
     name = "Build"
 
-    artifactRules = """**\obj\Release\*.all -%build.number%"""
+    artifactRules = "https://github.com/Divyasadhankar/maven-project.git"
     publishArtifacts = PublishMode.SUCCESSFUL
 
     vcs {
